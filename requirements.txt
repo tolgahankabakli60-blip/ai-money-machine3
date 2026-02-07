@@ -1,0 +1,90 @@
+# SOVEREIGN AI HOLDING - Enterprise Requirements
+# Python 3.11+
+
+# ============ CORE FRAMEWORK ============
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+python-dotenv==1.0.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# ============ AI/ML STACK ============
+openai==1.35.3
+anthropic==0.29.0
+langchain==0.2.6
+langchain-openai==0.1.14
+langchain-anthropic==0.1.19
+llama-index==0.10.50
+transformers==4.42.3
+torch==2.3.1
+sentence-transformers==3.0.1
+pinecone-client==5.0.0
+chromadb==0.5.3
+
+# ============ DATABASE (Polyglot) ============
+sqlalchemy==2.0.31
+asyncpg==0.29.0
+alembic==1.13.2
+psycopg2-binary==2.9.9
+pymongo==4.8.0
+motor==3.5.0
+neo4j==5.21.0
+redis==5.0.6
+
+# ============ EVENT STREAMING ============
+kafka-python==2.0.2
+aiokafka==0.11.0
+confluent-kafka==2.4.0
+
+# ============ BLOCKCHAIN / WEB3 ============
+web3==6.20.0
+eth-account==0.13.0
+py-solc-x==2.0.3
+coinbase-commerce==1.0.1
+
+# ============ DATA & ANALYTICS ============
+pandas==2.2.2
+numpy==1.26.4
+pyspark==3.5.1
+mlflow==2.14.2
+xgboost==2.1.0
+scikit-learn==1.5.0
+scipy==1.14.0
+
+# ============ MONITORING & LOGGING ============
+loguru==0.7.2
+prometheus-client==0.20.0
+sentry-sdk==2.7.1
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-instrumentation-fastapi==0.46b0
+
+# ============ TESTING ============
+pytest==8.2.2
+pytest-asyncio==0.23.7
+pytest-cov==5.0.0
+httpx==0.27.0
+factory-boy==3.3.0
+faker==26.0.0
+
+# ============ UTILITIES ============
+tenacity==8.4.2
+celery==5.4.0
+schedule==1.2.2
+croniter==2.1.1
+httpx==0.27.0
+aiohttp==3.9.5
+aiofiles==24.1.0
+jinja2==3.1.4
+pyyaml==6.0.1
+cryptography==42.0.8
+
+# ============ DEVELOPMENT ============
+black==24.4.2
+isort==5.13.2
+flake8==7.1.0
+mypy==1.10.0
+pre-commit==3.7.1
